@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first web page</title>
+        <!--Title of my first webpage-->
+
+        <style>
+          body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              background-color: #f4f4f4;
+          }
+  
+          .container {
+              width: 80%;
+              margin: auto;
+              overflow: hidden;
+          }
+  
+          h1 {
+              color: blue;
+          }
+  
+          section {
+              background: #fff;
+              margin: 20px 0;
+              padding: 20px;
+            
+          }
+  
+          ul, ol {
+              padding-left: 20px;
+          }
+  
+          img {
+              display: block;
+              margin: 20px auto;
+              max-width: 100%;
+              height: auto;
+              
+          }
+  
+          form {
+              margin-top: 20px;
+              background: #ffffff00;
+              padding: 20px;
+              
+          }
+  
+          label {
+              display: block;
+              margin: 10px 0 5px;
+          }
+  
+          input[type="text"],
+          input[type="search"] {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 10px;
+             
+          }
+  
+          button {
+              padding: 10px 20px;
+              background-color: #007BFF;
+              color: white;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+          }
+  
+          button:hover {
+              background-color: #0056b3;
+          }
+  
+          .contact-details ul {
+              list-style-type: none;
+              padding: 0;
+          }
+  
+          .contact-details ul li {
+              margin-bottom: 10px;
+          }
+      </style>
+    </head>
+
+    <body>
+      <div class="container">
+        <!--Information about me-->
+
+         <section class="about-me">
+           <h1>About Me</h1>
+           <h2>My Name Is Nosipho Mazibuko</h2>
+             <p>Being who I am, I embrace a unique blend of experiences, passions, and motivations that shape my identity. My journey has been a tapestry of varied experiences, each contributing to the person I am today. From a young age, I've been curious and driven, always seeking to understand the world around me and my place within it. This innate curiosity has led me to explore different fields, cultures, and perspectives, enriching my life and broadening my horizons.</p><br>
+             <p>My passions are diverse and deeply rooted in my desire to make a meaningful impact. I have a profound love for technology and environmental sustainability, which drives much of what I do. Whether it's developing innovative tech solutions, I find immense satisfaction in pursuing these interests. They not only fulfill me personally but also connect me with like-minded individuals who share my enthusiasm and vision.</p><br>
+             <p>As a freelance social media manager and digital marketer, I have honed my skills in creating engaging content, strategizing campaigns, and analyzing digital trends to help brands connect with their audiences. This dynamic field has given me a solid foundation in understanding user behavior, online engagement, and the power of digital platforms. However, my true aspiration lies in software engineering. I am passionate about coding and problem-solving, and I envision myself developing innovative software solutions that drive efficiency and create value. Transitioning into software engineering will allow me to merge my digital marketing insights with technical expertise, ultimately leading to more impactful and creative technological advancements.</p><br>
+        </section>
+        <section class="contact-details"> 
+        <h1>My Contact Details</h1>
+        <ol>
+          <li>Name and Surname: Nosipho Mazibuko</li>
+          <li>Contact Number: 071 970 4801</li>
+          <li>Email Address: mazibukonossy1@gmail.com</li>
+          <li>Social Media: <ul>Instagram - @np.mazibuko</ul><br><ul>LinkedIn - Nosipho Mazibuko</ul></li>
+          <img src ="myself.jpg" alt="Nosipho Mazibuko" width="600" height="400">
+        </ol>
+        </section>
+
+        <!--A list of my skills-->
+        <section class="skills"></section>
+          <h1>My Skills and Competencies</h1>
+         <ul>
+          <li>Teamwork Skilss</li>
+          <li>Analytical Skills</li>
+          <li>Problem Solving</li>
+          <li>Design Skills</li>
+          <li>Microsoft Office Skills</li>
+         </ul>
+        </section>
+
+        <section class="education">
+        <!--Describing my education-->
+        <h1>My Education</h1>
+          <p>I went to Primrose High School and completed my matric in 2020. In 2022 I completed my Higher Certificate in Marketing Management at Boston City Campus. I am currently a part-time Software engineering student at Hyperiondev.</p>
+        </section>
+
+        <!-- My Work Experience -->
+        <section class="work-experience">
+        <h1>My Work Experience</h1><br>
+          <p>I have 4 years experience working as a Social Media Manager and a Digital Marketer. My tasks as a Social Media Manager/ Digital marketer include:</p><br>
+          <ul>
+            <li>Creating Social Media Strategies</li>
+            <li>Creating monthly content plans</li>
+            <li>Graphic designs</li>
+            <li>Analyzing data across social media platforms</li>
+            <li>Runnings paid advertisements</li>
+            <li>Planning ahead and scheduling content</li>
+            <li>Researching target audience</li>
+          </ul>
+        </section>
+
+        <form action = "/index.html" method = "get">
+
+            <!--Search Form-->
+            <label for="site-search">Search The Site:</label>
+            <input type = "search" id = "site-search" name = "q"/>
+
+            <button>Search</button><br>
+
+        <form action = "/index.html" method = "post">
+
+            <!--Contact Form-->
+            <label>First Name: </label>
+            <input type = "text"><br>
+            <label>Email Address: </label>
+            <input type = "text"><br>
+            <label> Write your message.</label>
+            <input type = "text"><br>
+
+            <button>Submit</button><br>
+        </form>
+      </div>
+    </body>
+
+</html>
+
